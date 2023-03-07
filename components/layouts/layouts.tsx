@@ -11,7 +11,7 @@ const Layout = (props:any) => {
           </div>
         </header>
 
-        <main className="lg:mt-[70px]">{props.children}</main>
+        <main className="lg:mt-[70px] md:mt-36 mt-14">{props.children}</main>
       </>
     );
 }

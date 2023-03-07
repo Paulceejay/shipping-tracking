@@ -31,6 +31,10 @@ module.exports = {
         white: "#FFFFFF",
         inputBg: "#DDDDDD",
         lightGray: "#033163",
+        gradientOne: "#071524",
+        gradientTwo: "#0F273E",
+        gradientThree: "#1A354B",
+        gradientFour: "#8FABBD"
       },
       fontFamily: {
         mulish: ["Mulish", "sans-serif"],
