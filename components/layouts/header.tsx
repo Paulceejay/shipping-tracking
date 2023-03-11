@@ -3,8 +3,8 @@ import Image from "next/image";
 const Header = (props: any) => {
   return (
     <div className="hidden md:block bg-secondaryColor md:w-full relative">
-      <div className="flex justify-between max-w-[1300] xl:w-[90%] lg:w-[90%] md:w-[95%] mx-auto py-3">
-        <div className="flex justify-between xl:ml-40">
+      <div className="flex justify-between max-w-[1300] xl:w-[80%] lg:w-[90%] md:w-[95%] mx-auto py-3">
+        <div className="flex justify-between">
           <div className="flex justify-between xl:ml-3.5 xl:mr-5 lg:mr-6">
             <Image src="/svg/call.svg" alt="call icon" width={20} height={15} />
             <p className="ml-3 xl:text-xl lg:text-base md:text-sm text-white">

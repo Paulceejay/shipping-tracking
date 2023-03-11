@@ -6,9 +6,9 @@ const MainNavigation = () => {
   return (
     <>
       {/* NAV BAR FOR BIG SCREENS */}
-      <div className="hidden md:flex justify-between max-w-[1300] xl:w-[90%] lg:w-[90%] md:w-[95%] mx-auto py-3">
+      <div className="hidden md:flex justify-between max-w-[1300] xl:w-[80%] lg:w-[90%] md:w-[95%] mx-auto py-3">
         <Link className="pt-1" href="/">
-          <Logo className="xl:ml-40" />
+          <Logo className="" />
         </Link>
         <nav className="flex justify-between xl:text-xl md:text-base text-paragraph">
           <ul className="flex justify-between xl:mr-14 lg:mr-16 md:mr-12">

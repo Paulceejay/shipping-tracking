@@ -19,6 +19,8 @@ module.exports = {
         backgroundImage: {
         'header-bg-img': "url('/images/header-bg.jpg')",
         'footer-bg-img': "url('/images/footer-bg.jpg')",
+        'product-bg-img': "url('/images/product-bg.jpg')",
+        'services-bg-img': "url('/images/services-bg.jpg')",
       },
       colors: {
         primaryColor: "#9B146D",
