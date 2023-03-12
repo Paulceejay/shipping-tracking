@@ -8,6 +8,7 @@ import PinkLine from '../components/home-page/pink-line'
 import TrackingProduct from '../components/home-page/tracking-product'
 import Services from '../components/home-page/services'
 import About from '../components/home-page/about'
+import IconsMan from '../components/home-page/icons-man'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,6 +27,7 @@ export default function Home() {
       <TrackingProduct />
       <Services />
       <About />
+      <IconsMan />
     </>  
   );
 }

@@ -16,11 +16,12 @@ module.exports = {
       "2xl": "1536px",
     },
     extend: {
-        backgroundImage: {
-        'header-bg-img': "url('/images/header-bg.jpg')",
-        'footer-bg-img': "url('/images/footer-bg.jpg')",
-        'product-bg-img': "url('/images/product-bg.jpg')",
-        'services-bg-img': "url('/images/services-bg.jpg')",
+      backgroundImage: {
+        "header-bg-img": "url('/images/header-bg.jpg')",
+        "footer-bg-img": "url('/images/footer-bg.jpg')",
+        "product-bg-img": "url('/images/product-bg.jpg')",
+        "services-bg-img": "url('/images/services-bg.jpg')",
+        "man-bg-img": "url('/images/man.png')",
       },
       colors: {
         primaryColor: "#9B146D",
@@ -32,11 +33,11 @@ module.exports = {
         productBg: "#32182F",
         white: "#FFFFFF",
         inputBg: "#DDDDDD",
-        lightGray: "#033163",
+        lightBlue: "#114278",
         gradientOne: "#071524",
         gradientTwo: "#0F273E",
         gradientThree: "#1A354B",
-        gradientFour: "#8FABBD"
+        gradientFour: "#8FABBD",
       },
       fontFamily: {
         mulish: ["Mulish", "sans-serif"],
