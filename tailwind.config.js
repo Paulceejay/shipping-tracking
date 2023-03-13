@@ -22,6 +22,11 @@ module.exports = {
         "product-bg-img": "url('/images/product-bg.jpg')",
         "services-bg-img": "url('/images/services-bg.jpg')",
         "man-bg-img": "url('/images/man.png')",
+        "car-bg-img": "url('/images/car-bg.jpg')",
+        "automobile-bg-img": "url('/images/automobile.jpg')",
+        "shipping-bg-img": "url('/images/shipping.jpg')",
+        "airway-bg-img": "url('/images/airways.jpg')",
+        "courier-bg-img": "url('/images/courier-bg.jpg')",
       },
       colors: {
         primaryColor: "#9B146D",
@@ -38,6 +43,8 @@ module.exports = {
         gradientTwo: "#0F273E",
         gradientThree: "#1A354B",
         gradientFour: "#8FABBD",
+        grayBg: "#F4F4F4",
+        cargoBg: "#0D2946",
       },
       fontFamily: {
         mulish: ["Mulish", "sans-serif"],

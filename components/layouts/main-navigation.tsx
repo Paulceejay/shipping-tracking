@@ -2,6 +2,12 @@ import Link from "next/link";
 import Logo from "./logo";
 import SmallScreenNav from "./small-screen-nav";
 
+const Navlink = [
+  { name: "Couriers Lists", href: "/courier-list", id: 1 },
+  { name: "Contact Us", href: "/contact", id: 2 },
+  { name: "Help", href: "/help", id: 3 },
+];
+
 const MainNavigation = () => {
   return (
     <>
@@ -12,15 +18,13 @@ const MainNavigation = () => {
         </Link>
         <nav className="flex justify-between xl:text-xl md:text-base text-paragraph">
           <ul className="flex justify-between xl:mr-14 lg:mr-16 md:mr-12">
-            <li className="xl:mx-8 lg:mx-9 md:mr-8 py-5">
-              <Link href="/courier">Couriers Lists</Link>
-            </li>
-            <li className="xl:mx-8 lg:mx-9 md:mr-8 py-5">
-              <Link href="/contact">Contact Us</Link>
-            </li>
-            <li className="xl:mx-10 lg:mx-11 md:mr-8 py-5">
-              <Link href="/help">Help</Link>
-            </li>
+            {Navlink.map(nav => {
+              return (
+                <li className="xl:mx-8 lg:mx-9 md:mr-8 py-5">
+                  <Link key={nav.id} href={nav.href}>{nav.name}</Link>
+                </li>
+              );
+            })}
           </ul>
 
           <ul className="flex justify-between lg:mr-2 md:mr-3 py-2">

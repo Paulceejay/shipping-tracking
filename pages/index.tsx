@@ -9,6 +9,10 @@ import TrackingProduct from '../components/home-page/tracking-product'
 import Services from '../components/home-page/services'
 import About from '../components/home-page/about'
 import IconsMan from '../components/home-page/icons-man'
+import Faq from '../components/layouts/faq'
+import FaqHeader from '../components/layouts/faq-header'
+import Footer from '../components/layouts/footer'
+import CargoGround from '../components/layouts/cargo-ground'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +32,9 @@ export default function Home() {
       <Services />
       <About />
       <IconsMan />
-    </>  
+      <Faq faq="FAQ" faqHeader={<FaqHeader />} />
+      <CargoGround />
+      <Footer />
+    </>
   );
 }
