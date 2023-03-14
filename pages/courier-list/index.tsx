@@ -1,5 +1,7 @@
 import Head from "next/head";
 import CourierBgImage from "../../components/courier/courier-bg-image";
+import GlobalCourier from "../../components/courier/global-courier";
+import ParagraphText from "../../components/courier/paragraph-text";
 import About from "../../components/home-page/about";
 import PinkLine from "../../components/home-page/pink-line";
 import TrackingProduct from "../../components/home-page/tracking-product";
@@ -19,6 +21,8 @@ const CourierList = () => {
         <CourierBgImage />
         <PinkLine />
         <TrackingProduct />
+        <ParagraphText />
+        <GlobalCourier />
         <About />
         <CargoGround />
         <Footer />

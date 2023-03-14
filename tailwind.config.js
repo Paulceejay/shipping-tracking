@@ -19,6 +19,8 @@ module.exports = {
       backgroundImage: {
         "header-bg-img": "url('/images/header-bg.jpg')",
         "footer-bg-img": "url('/images/footer-bg.jpg')",
+        "contact-bg-img": "url('/images/contact-bg.jpg')",
+        "contact-form-bg-img": "url('/images/contact.jpg')",
         "product-bg-img": "url('/images/product-bg.jpg')",
         "services-bg-img": "url('/images/services-bg.jpg')",
         "man-bg-img": "url('/images/man.png')",

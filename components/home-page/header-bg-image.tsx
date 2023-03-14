@@ -1,7 +1,7 @@
 const HeaderBgImage = (props:any) => {
     return (
       <div className="w-full bg-header-bg-img h-full bg-no-repeat bg-cover bg-center">
-        <div className="pt-24 pb-32 bg-gradient-to-r from-gradientTwo bg-blend-darken">
+        <div className="pt-24 pb-32 bg-gradient-to-r from-gradientTwo via-transparent to-gradientTwo bg-blend-darken">
           <h1 className="lg:mt-24 xl:w-[80%] lg:w-[90%] md:w-[95%] mx-auto text-white font-bold xl:text-6xl sm:text-5xl w-11/12 xs:text-4xl text-3xl">
             We are Global
           </h1>
