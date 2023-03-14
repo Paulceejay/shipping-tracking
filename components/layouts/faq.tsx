@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 const faqHow = [
-  { name: "How to track a package", minus: "-" },
-  { name: "How to track a package", minus: "-" },
-  { name: "How to track a package", minus: "-" },
+  { name: "How to track a package", minus: "-", id:1 },
+  { name: "How to track a package", minus: "-", id: 2 },
+  { name: "How to track a package", minus: "-", id: 3 },
 ];
 
 export const howToTrack = faqHow.map((how) => {
   return (
-    <div className="mt-5 lg:pl-10 pl-7 flex justify-between bg-grayBg">
+    <div key={how.id} className="mt-5 lg:pl-10 pl-7 flex justify-between bg-grayBg">
       <h2 className="xl:text-2xl lg:text-xl sx:text-lg text-sm font-medium text-secondaryColor flex justify-center items-center">
         {how.name}
       </h2>

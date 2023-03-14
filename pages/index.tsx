@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Header from '../components/layouts/header'
 import HeaderBgImage from '../components/home-page/header-bg-image'
@@ -13,8 +12,6 @@ import Faq from '../components/layouts/faq'
 import FaqHeader from '../components/layouts/faq-header'
 import Footer from '../components/layouts/footer'
 import CargoGround from '../components/layouts/cargo-ground'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (

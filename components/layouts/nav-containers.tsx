@@ -24,7 +24,7 @@ const NavContainers = (props:any) => {
             {Navlink.map(nav => {
               return (
                 <>
-                  <li className="py-[13px]">
+                  <li key={nav.id} className="py-[13px]">
                     <Link onClick={props.onClick} key={nav.id} href={nav.href}>
                       {nav.name}
                     </Link>
@@ -73,7 +73,7 @@ const NavContainers = (props:any) => {
               <div className="w-11/12 mx-auto flex flex-wrap py-4 text-sm text-white">
                 {contact.map(con => {
                   return (
-                    <div className="flex mr-5 py-2">
+                    <div key={con.id} className="flex mr-5 py-2">
                       <Image
                         src={con.src}
                         alt="icon"
