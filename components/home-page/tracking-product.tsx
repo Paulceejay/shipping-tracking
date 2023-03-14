@@ -33,5 +33,3 @@ const TrackingProduct = () => {
 }
 
 export default TrackingProduct
-
-// xl:w-[80%] lg:w-[90%] md:w-[95%] w-11/12 mx-auto

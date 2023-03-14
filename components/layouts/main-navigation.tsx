@@ -20,7 +20,7 @@ const MainNavigation = () => {
           <ul className="flex justify-between xl:mr-14 lg:mr-16 md:mr-12">
             {Navlink.map(nav => {
               return (
-                <li className="xl:mx-8 lg:mx-9 md:mr-8 py-5">
+                <li key={nav.id} className="xl:mx-8 lg:mx-9 md:mr-8 py-5">
                   <Link key={nav.id} href={nav.href}>{nav.name}</Link>
                 </li>
               );

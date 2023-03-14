@@ -1,5 +1,24 @@
 import Image from "next/image";
 
+const faqHow = [
+  { name: "How to track a package", minus: "-" },
+  { name: "How to track a package", minus: "-" },
+  { name: "How to track a package", minus: "-" },
+];
+
+export const howToTrack = faqHow.map((how) => {
+  return (
+    <div className="mt-5 lg:pl-10 pl-7 flex justify-between bg-grayBg">
+      <h2 className="xl:text-2xl lg:text-xl sx:text-lg text-sm font-medium text-secondaryColor flex justify-center items-center">
+        {how.name}
+      </h2>
+      <p className="bg-secondaryColor text-white xl:px-10 p-7 text-2xl lg:py-5 py-3">
+        {how.minus}
+      </p>
+    </div>
+  );
+});
+
 const Faq = (props:any) => {
     return (
       <section className="bg-car-bg-img bg-no-repeat lg:my-28 my-20">
@@ -26,24 +45,9 @@ const Faq = (props:any) => {
               clear and easy to understand, so you can know at once the status
               of each package.
             </p>
-            <div className="mt-5 lg:pl-10 pl-7 flex justify-between bg-grayBg">
-              <h2 className="xl:text-3xl lg:text-xl sx:text-lg text-sm font-medium text-secondaryColor flex justify-center items-center">
-                How to track a package
-              </h2>
-              <p className="bg-secondaryColor text-white xl:px-10 p-7 text-2xl lg:py-5 py-3">-</p>
-            </div>
-            <div className="mt-5 lg:pl-10 pl-7 flex justify-between bg-grayBg">
-              <h2 className="xl:text-3xl lg:text-xl sx:text-lg text-sm font-medium text-secondaryColor flex justify-center items-center">
-                How to track a package
-              </h2>
-              <p className="bg-secondaryColor text-white xl:px-10 p-7 text-2xl lg:py-5 py-3">-</p>
-            </div>
-            <div className="mt-5 lg:pl-10 pl-7 flex justify-between bg-grayBg">
-              <h2 className="xl:text-3xl lg:text-xl sx:text-lg text-sm font-medium text-secondaryColor flex justify-center items-center">
-                How to track a package
-              </h2>
-              <p className="bg-secondaryColor text-white xl:px-10 p-7 text-2xl lg:py-5 py-3">-</p>
-            </div>
+            
+            {howToTrack}
+            {props.how}
           </div>
           <Image
             className="lg:block hidden"
