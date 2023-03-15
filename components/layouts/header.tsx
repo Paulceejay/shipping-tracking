@@ -7,7 +7,7 @@ const Header = (props: any) => {
         <div className="flex justify-between">
           <div className="flex justify-between xl:ml-3.5 xl:mr-5 lg:mr-6">
             <Image src="/svg/call.svg" alt="call icon" width={20} height={15} />
-            <p className="ml-3 xl:text-lg lg:text-base md:text-sm text-white">
+            <p className="ml-3 lg:text-base md:text-sm text-white">
               Phone +012 345 6789
             </p>
           </div>
@@ -15,10 +15,10 @@ const Header = (props: any) => {
             <Image
               src="/svg/location.svg"
               alt="location icon"
-              width={20}
+              width={15}
               height={15}
             />
-            <p className="ml-3 xl:text-lg lg:text-base md:text-sm text-white">
+            <p className="ml-3 lg:text-base md:text-sm text-white">
               Cargo Hub, NY 10012, USA
             </p>
           </div>
@@ -26,10 +26,10 @@ const Header = (props: any) => {
             <Image
               src="/svg/mail.svg"
               alt="message icon"
-              width={20}
+              width={15}
               height={15}
             />
-            <p className="ml-3 xl:text-lg lg:text-base md:text-sm text-white">
+            <p className="ml-3 g:text-base md:text-sm text-white">
               Mail@demo.com
             </p>
           </div>
@@ -38,22 +38,22 @@ const Header = (props: any) => {
           <Image
             src="/svg/twitter.svg"
             alt="twitter icon"
-            width={22}
-            height={20}
+            width={15}
+            height={15}
             className="mx-4 lg:mx-3"
           />
           <Image
             src="/svg/facebook.svg"
             alt="facebook icon"
-            width={22}
-            height={20}
+            width={15}
+            height={15}
             className="mx-4 lg:mx-3"
           />
           <Image
             src="/svg/instagram.svg"
             alt="instagram icon"
-            width={22}
-            height={20}
+            width={15}
+            height={15}
             className="mx-4 lg:mx-3"
           />
         </div>

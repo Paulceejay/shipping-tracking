@@ -14,10 +14,10 @@ const HeaderBgImage = (props:any) => {
             more!
           </p>
           <div className="xl:w-[80%] lg:w-[90%] md:w-[95%] w-11/12 mx-auto flex ">
-            <p className="bg-transparent xs:px-6 p-3 border-[3px] text-white sm:text-base text-sm xs:mr-4 mr-3">
+            <p className="bg-transparent xs:px-6 p-2 border-[3px] text-white sm:text-base text-sm xs:mr-4 mr-3">
               LEARN MORE
             </p>
-            <p className="bg-white xs:px-6 p-3 border-[3px] text-paragraph sm:text-base text-sm xs:ml-4 ml-3">
+            <p className="bg-white xs:px-6 p-2 border-[3px] text-paragraph sm:text-base text-sm xs:ml-4 ml-3">
               ABOUT US
             </p>
           </div>

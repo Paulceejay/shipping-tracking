@@ -12,7 +12,7 @@ export const howToTrack = faqHow.map((how) => {
       <h2 className="xl:text-xl lg:text-lg sx:text-base text-sm font-medium text-secondaryColor flex justify-center items-center">
         {how.name}
       </h2>
-      <p className="bg-secondaryColor font-bold text-white xl:px-10 p-7 lg:py-5 py-3">
+      <p className="bg-secondaryColor font-bold text-white xl:px-7 px-4 lg:py-5 py-3">
         {how.minus}
       </p>
     </div>
@@ -26,14 +26,14 @@ const Faq = (props:any) => {
 
         <div className="xl:w-[80%] lg:w-[90%] md:w-[95%] w-11/12 mx-auto flex justify-between">
           <div className="xl:w-[50%] xl:mx-0 lg:w-9/12 mx-auto">
-            <h1 className="text-secondaryColor font-bold lg:text-3xl text-2xl">
+            <h1 className="text-secondaryColor font-bold text-2xl">
               {props.faq}
             </h1>
             <div className="mt-16 lg:pl-10 pl-7 flex justify-between bg-grayBg">
               <h2 className="xl:text-2xl lg:text-xl sx:text-lg text-sm font-medium text-secondaryColor flex justify-center items-center">
                 How does it work
               </h2>
-              <p className="bg-secondaryColor font-bold text-white xl:px-10 p-7 lg:py-5 py-3">
+              <p className="bg-secondaryColor font-bold text-white xl:px-7 px-4 lg:py-5 py-3">
                 +
               </p>
             </div>
@@ -53,7 +53,7 @@ const Faq = (props:any) => {
             className="xl:block hidden"
             src="/images/cars.jpg"
             alt=""
-            width={400}
+            width={350}
             height={150}
           />
         </div>

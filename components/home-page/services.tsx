@@ -4,10 +4,10 @@ const Services = () => {
     return (
       <div className="xl:w-[80%] lg:w-[90%] md:w-[95%] w-11/12 mx-auto flex md:flex-row flex-col justify-between bg-services-bg-img">
         <div className="md:w-[66%] w-full">
-          <h2 className="text-primary2 lg:text-lg text-base mb-5 font-bold">
+          <h2 className="text-primary2 text-base mb-5 font-bold">
             WELCOME TO OUR TRANPORATION SERVICES AGENCY
           </h2>
-          <h1 className="text-headerColor font-bold xl:text-3xl md:text-2xl text-lg lg:mb-6 md:mb-3">
+          <h1 className="text-headerColor font-bold xl:text-2xl md:text-xl text-lg lg:mb-6 md:mb-3">
             WE ARE THE BEST AT OUR TRANS-PORTATION SERVICE EVER
           </h1>
           <p className="text-paragraph xl:text-xl lg:text-lg text-base py-3">
@@ -19,7 +19,7 @@ const Services = () => {
             transportation determine much more than where roads or bridges or
             tunnels.
           </p>
-          <p className="bg-secondaryColor text-white px-4 py-3 xs:w-[45%] lg:w-[38%] w-[70%] text-center my-6 md:text-base text-xs">
+          <p className="bg-secondaryColor text-white p-3 xs:w-[45%] lg:w-[38%] w-[70%] text-center my-6 md:text-base text-xs">
             LEARN MORE
           </p>
         </div>
