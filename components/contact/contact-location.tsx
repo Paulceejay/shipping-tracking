@@ -13,15 +13,15 @@ const ContactLocation = () => {
           className="lg:block hidden"
           src="/images/box.jpg"
           alt=""
-          width={500}
+          width={450}
           height={200}
         />
         <div className="h-auto">
-          <h1 className="xl:text-6xl lg:text-4xl sm:text-2xl text-xl text-black font-semibold">Office in New York</h1>
+          <h1 className="xl:text-4xl lg:text-2xl sm:text-xl text-lg text-black font-semibold">Office in New York</h1>
           {address.map((addr) => {
             return (
               <div key={addr.content} className="xl:my-14 my-10">
-                <h2 className="text-secondaryColor md:text-xl font-bold">{addr.name}</h2>
+                <h2 className="text-secondaryColor md:text-xl font-extrabold">{addr.name}</h2>
                 <p className="text-paragraph md:text-xl text-base my-5">{addr.content}</p>
               </div>
             );

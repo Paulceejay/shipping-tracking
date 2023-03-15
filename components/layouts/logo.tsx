@@ -6,7 +6,7 @@ const Logo = (props:any) => {
         className={props.className}
         src="/icons/logo.png"
         alt="logo image"
-        width={150}
+        width={100}
         height={130}
       />
     );
