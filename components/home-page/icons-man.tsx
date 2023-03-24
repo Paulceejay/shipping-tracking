@@ -13,7 +13,7 @@ const IconsMan = () => {
           Tracking Couriers
         </h1>
         <div className="md:flex justify-between my-10 relative">
-          <div className="grid lg:grid-cols-3 grid-cols-2 gap-4 relative z-10">
+          <div className="grid lg:grid-cols-3 grid-cols-2 gap-2 relative z-10">
             <CompanyIcons />
           </div>
 

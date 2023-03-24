@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import CallSvg from "../icons/CallSvg";
 import FacebookSvg from "../icons/FacebookSvg";
 import InstagramSvg from "../icons/InstagramSvg";
@@ -21,6 +21,13 @@ const contact = [
 ];
 
 const NavContainers = (props:any) => {
+  const router = useRouter()
+
+  const click = (href:string) => {
+   router.push(href)
+
+   props.onClick()
+  }
     return (
       <>
         {/* nav containers */}
@@ -30,7 +37,7 @@ const NavContainers = (props:any) => {
             {Navlink.map(nav => {
               return (
                 <>
-                  <li key={nav.id} className="py-[15px] font-semibold">
+                  <li onClick={click.bind(true, nav.href)} key={nav.id} className="py-[15px] font-semibold">
                     <Link onClick={props.onClick} key={nav.id} href={nav.href}>
                       {nav.name}
                     </Link>

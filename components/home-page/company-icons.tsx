@@ -16,7 +16,7 @@ const CompanyIcons = () => {
       <>
         {icons.map(icon => {
           return (
-            <div key={icon.src} className="bg-lightBlue lg:m-2 m-2 flex justify-center items-center flex-col  py-2 md:px-10 px-7">
+            <div key={icon.src} className="bg-lightBlue lg:m-2 m-2 flex justify-center items-center flex-col  py-2 px-7">
               <Image
                 src={icon.src}
                 alt=""
@@ -27,7 +27,7 @@ const CompanyIcons = () => {
             </div>
           );
         })}
-        <div className="bg-lightBlue lg:m-2 m-2 md:flex justify-center items-center flex-col py-4  md:px-14 px-7 hidden">
+        <div className="bg-lightBlue lg:m-2 m-2 md:flex justify-center items-center flex-col py-2 px-7 hidden">
           <Image src="/icons/canada-post.png" alt="" width={50} height={50} />
           <p className="text-white mt-4 font-light text-sm lg:text-base">CANADA POST</p>
         </div>
