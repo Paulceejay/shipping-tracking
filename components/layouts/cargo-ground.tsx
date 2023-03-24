@@ -3,24 +3,17 @@ import Image from "next/image";
 const CargoGround = () => {
     return (
       <section className="bg-secondaryColor">
-        <div className="xl:w-[80%] lg:w-[90%] md:w-[95%] w-11/12 mx-auto py-16 xl:flex justify-between grid lg:grid-cols-2 grid-cols-1">
-          <div className="relative mx-3 lg:mx-0 xl:my-0 my-3 lg:grid flex justify-center items-center">
+        <div className="xl:w-[85%] lg:w-[95%] md:w-[95%] w-11/12 mx-auto py-16 xl:flex justify-between grid lg:grid-cols-3 grid-cols-1 lg:gap-3 gap-0">
+          <div className="relative grid justify-center items-center">
             <Image
-              className="lg:block hidden"
+              className="lg:h-auto h-52"
               src="/images/automobile.jpg"
               alt=""
-              width={350}
-              height={200}
+              width={450}
+              height={250}
             />
-            <Image
-              className="block lg:hidden"
-              src="/images/automobile.jpg"
-              alt=""
-              width={250}
-              height={100}
-              />
-            <p className="absolute left-5 md:bottom-10 bottom-5 right-0 lg:grid flex justify-center items-center flex-col">
-              <h2 className="xl:text-lg text-base text-primary2 font-extrabold">
+            <p className="lg:absolute relative left-5 bottom-20 lg:bottom-5 right-0">
+              <h2 className="xl:text-xl text-lg text-primary2 font-extrabold">
                 AUTOMOBILE
               </h2>
               <h1 className="xl:text-2xl md:text-xl text-lg text-white font-bold xl:my-3 my-2">
@@ -28,23 +21,16 @@ const CargoGround = () => {
               </h1>
             </p>
           </div>
-          <div className="relative mx-3 lg:mx-0 xl:my-0 my-3 lg:grid flex justify-center items-center">
+          <div className="relative grid justify-center items-center">
             <Image
-              className="lg:block hidden"
+              className="lg:h-auto h-52"
               src="/images/shipping.jpg"
               alt=""
-              width={350}
-              height={200}
+              width={450}
+              height={250}
             />
-            <Image
-              className="block lg:hidden"
-              src="/images/shipping.jpg"
-              alt=""
-              width={250}
-              height={100}
-            />
-            <p className="absolute left-5 md:bottom-10 bottom-5 right-0 lg:grid flex justify-center items-center flex-col">
-              <h2 className="xl:text-lg text-base text-primary2 font-extrabold">
+            <p className="lg:absolute relative left-5 bottom-20 lg:bottom-5 right-0">
+              <h2 className="xl:text-xl text-lg text-primary2 font-extrabold">
                 SHIPPING
               </h2>
               <h1 className="xl:text-2xl md:text-xl text-lg text-white font-bold xl:my-3 my-2">
@@ -52,23 +38,16 @@ const CargoGround = () => {
               </h1>
             </p>
           </div>
-          <div className="relative mx-3 lg:mx-0 xl:my-0 my-3 lg:grid flex justify-center items-center">
+          <div className="relative grid justify-center items-center">
             <Image
-              className="lg:block hidden"
+              className="lg:h-auto h-52"
               src="/images/airways.jpg"
               alt=""
-              width={350}
-              height={200}
+              width={450}
+              height={250}
             />
-            <Image
-              className="block lg:hidden"
-              src="/images/airways.jpg"
-              alt=""
-              width={250}
-              height={100}
-            />
-            <p className="absolute left-5 md:bottom-10 bottom-5 right-0 lg:grid flex justify-center items-center flex-col">
-              <h2 className="xl:text-lg text-base text-primary2 font-extrabold">
+            <p className="lg:absolute relative left-5 bottom-20 lg:bottom-5 right-0">
+              <h2 className="xl:text-xl text-lg text-primary2 font-extrabold">
                 AIRWAYS
               </h2>
               <h1 className="xl:text-2xl md:text-xl text-lg text-white font-bold xl:my-3 my-2">

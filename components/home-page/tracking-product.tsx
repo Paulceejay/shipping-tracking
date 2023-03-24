@@ -1,29 +1,25 @@
-import Image from "next/image";
+import TrackingSvg from "../icons/TrackingSvg";
 
 const TrackingProduct = () => {
     return (
-      <div className="bg-transparent rounded max-w-[1300] xl:w-[80%] lg:w-[90%] w-[95%] mx-auto py-2 relative left-0 right-0 bottom-24">
-        <div className="bg-white p-6 flex shadow-sm shadow-paragraph">
-          <div className="hidden md:block bg-product-bg-img bg-no-repeat bg-center bg-cover bg-blend-darken w-1/2 mr-4">
-            <p className="pl-10 xl:pr-20 pr-10 py-10 lg:text-4xl text-2xl font-bold text-white">
+      <div className="bg-transparent rounded xl:w-[85%] lg:w-[95%] lg:max-w-none xs:max-w-screen-xs w-11/12 mx-auto py-2 relative left-0 right-0 lg:bottom-24 bottom-16">
+        <div className="bg-white p-6 flex shadow-sm shadow-paragraph rounded-md">
+          <div className="hidden lg:block bg-product-bg-img bg-no-repeat bg-center bg-cover bg-blend-darken filter brightness-[60%] w-1/2 mr-4">
+            <p className="xl:w-[60%] pl-10 xl:pr-20 pr-10 xl:py-10 py-5 lg:text-4xl text-2xl text-white font-black">
               Track Your Product Way About
             </p>
           </div>
-          <div className="md:w-1/2 w-full ml-4 flex justify-between flex-col">
-            <div className="border-4 text-paragraph py-5 px-3 sm:text-xl text-base w-full">
+          <div className="lg:w-1/2 w-full ml-4 flex justify-between flex-col">
+            <div className="border-2 text-paragraph xl:py-5 py-4 px-3 text-base w-full">
               <p>Enter tracking ID</p>
             </div>
-            <div className="flex">
+            <div className="flex lg:mt-0 mt-4">
               <div className="lg:block hidden w-1/2"></div>
-              <p className="lg:w-11/12 w-full bg-primary2 text-white font-bold sm:text-xl text-base flex justify-center py-4">
+              <p className="lg:w-11/12 w-full bg-primary2 text-white font-bold sm:text-xl text-base flex lg:justify-center lg:px-0 xl:py-4 py-3 px-4">
                 Track Package
-                <Image
-                  className="sm:mx-6 mx-2 md:block hidden"
-                  src="/svg/track.svg"
-                  alt=""
-                  width={25}
-                  height={20}
-                />
+                <span className="py-1 ml-3">
+                  <TrackingSvg />
+                </span>
               </p>
             </div>
           </div>

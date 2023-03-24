@@ -1,6 +1,6 @@
 const CourierBgImage = () => {
     return (
-      <div className="w-full bg-courier-bg-img h-full bg-no-repeat bg-cover bg-center">
+      <div className="w-full bg-courier-bg-img h-full bg-no-repeat bg-cover bg-center bg-blend-darken filter brightness-[80%]">
         <div className="pt-16 pb-28 bg-gradient-to-r from-gradientTwo bg-blend-darken">
           <h1 className="lg:mt-20 text-white font-bold xl:text-5xl sm:text-4xl xs:text-3xl text-2xl text-center md:block hidden">
             We are Global Logistic provider

@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="xl:w-[80%] lg:w-[90%] md:w-[95%] w-11/12 mx-auto lg:my-40 my-20">
-      <div className="flex md:flex-row flex-col-reverse">
-        <div className="md:w-1/2 w-full md:block hidden">
+    <div className="xl:w-[85%] lg:w-[95%] lg:max-w-none xs:max-w-screen-xs w-11/12 mx-auto lg:my-40 my-20">
+      <div className="flex lg:flex-row flex-col-reverse">
+        <div className="lg:w-1/2 w-full lg:block hidden">
           <Image src="/images/plain.jpg" alt="" width={500} height={100} />
         </div>
-        <div className="md:w-1/2 w-full md:hidden flex justify-center items-center">
-          <Image src="/images/plain.jpg" alt="" width={300} height={100} />
+        <div className="lg:w-1/2 w-full lg:hidden my-7">
+          <Image className="w-full h-52" src="/images/plain.jpg" alt="" width={300} height={100} />
         </div>
-        <div className="xl:w-[70%] lg:w-[50%] md:w-1/2 md:ml-7">
+        <div className="xl:w-[70%] lg:w-[50%]">
           <h1 className="text-primary2 text-lg font-semibold mb-6">
             WE ARE OLTEM LOGISTICS
           </h1>
@@ -29,12 +29,12 @@ const About = () => {
         </div>
       </div>
 
-      <div className="md:flex flex-nowrap grid md:mt-0 mt-4">
-        <p className="bg-secondaryColor opacity-40 xl:text-xl md:text-lg text-lg text-white xl:w-1/2 md:w-[50%] w-full py-3 md:px-4 px-2 md:mr-5 shadow-sm shadow-paragraph col-span-12">
+      <div className="lg:flex flex-nowrap grid md:mt-0 mt-4 gap-2">
+        <p className="bg-secondaryColor opacity-40 xl:text-xl md:text-lg text-lg text-white xl:w-1/2 lg:w-[50%] w-full py-3 md:px-4 px-2 md:mr-5 shadow-sm shadow-paragraph col-span-12">
           We have long standing business relationshipswith some of the world’s
           largest agency.
         </p>
-        <div className="bg-secondaryColor xl:py-5 py-3 xl:px-10 lg:px-5 md:px-4 px-2 text-white md:w-auto md:mx-5 shadow-md shadow-paragraph col-span-6 md:m-0 my-4 mr-2">
+        <div className="bg-secondaryColor xl:py-5 py-3 xl:px-10 lg:px-5 md:px-4 px-2 text-white md:w-auto lg:mx-5 shadow-md shadow-paragraph col-span-6 md:m-0 my-4 mr-2">
           <p className="text-center font-bold xl:text-2xl md:text-xl text-lg">
             1300+
           </p>
@@ -42,7 +42,7 @@ const About = () => {
             Clients Worldwide
           </p>
         </div>
-        <div className="bg-white xl:py-5 py-3 xl:px-10 lg:px-5 md:px-4 px-2 md:w-auto md:mx-5 shadow-lg shadow-paragraph col-span-6 md:m-0 my-4 ml-2">
+        <div className="bg-white xl:py-5 py-3 xl:px-10 lg:px-5 md:px-4 px-2 md:w-auto lg:mx-5 shadow-lg shadow-paragraph col-span-6 md:m-0 my-4 ml-2">
           <p className="text-secondaryColor text-center font-bold xl:text-2xl md:text-xl text-lg">
             400+
           </p>

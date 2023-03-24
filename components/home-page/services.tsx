@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Services = () => {
     return (
-      <div className="xl:w-[80%] lg:w-[90%] md:w-[95%] w-11/12 mx-auto flex md:flex-row flex-col justify-between bg-services-bg-img">
-        <div className="md:w-[66%] w-full">
+      <div className="xl:w-[85%] lg:w-[95%] lg:max-w-none xs:max-w-screen-xs w-11/12 mx-auto flex lg:flex-row flex-col justify-between bg-services-bg-img">
+        <div className="lg:w-[66%] w-full">
           <h2 className="text-primary2 text-base mb-5 font-bold">
             WELCOME TO OUR TRANPORATION SERVICES AGENCY
           </h2>
@@ -23,11 +23,17 @@ const Services = () => {
             LEARN MORE
           </p>
         </div>
-        <div className="md:ml-4 md:w-auto w-full md:block hidden">
+        <div className="md:ml-4 md:w-auto w-full lg:block hidden">
           <Image src="/images/ship.jpg" alt="" width={400} height={100} />
         </div>
-        <div className="md:ml-4 w-full md:hidden flex justify-center items-center">
-          <Image src="/images/ship.jpg" alt="" width={300} height={50} />
+        <div className="w-full lg:hidden">
+          <Image
+            className="w-full h-52"
+            src="/images/ship.jpg"
+            alt=""
+            width={300}
+            height={50}
+          />
         </div>
       </div>
     );

@@ -4,7 +4,7 @@ import AuthImage from "./auth-img";
 
 const ResetEmail = () => {
   return (
-    <div className="xl:pt-24 xl:pb-32 pt-16 pb-28 xl:w-[90%] lg:w-[95%] md:w-[95%] w-11/12 mx-auto flex justify-between">
+    <div className="xl:pt-24 xl:pb-32 pt-16 pb-28 xl:w-[85%] lg:w-[95%] lg:max-w-none xs:max-w-screen-xs w-11/12 mx-auto flex justify-between">
       <AuthImage />
       <div className="w-full lg:w-1/2 mt-16">
         <p className="text-center text-2xl lg:w-10/12 mx-auto lg:mt-28">

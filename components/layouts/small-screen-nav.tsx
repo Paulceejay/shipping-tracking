@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import NavBarSvg from "../icons/NavBarSvg";
 import Logo from "./logo";
 import NavContainers from "./nav-containers";
 
@@ -17,19 +18,13 @@ const SmallScreenNav = () => {
     return (
       <>
         {/* NAV BAR FOR SMALL SCREENS */}
-        <div className="md:hidden block bg-white w-full">
-          <div className="flex justify-between sm:w-11/12 w-11/12 mx-auto py-2">
+        <div className="lg:hidden block bg-white w-full">
+          <div className="flex justify-between sm:w-[95%] w-11/12 mx-auto py-2">
             <Link href="/" onClick={cancelNavBar}>
               <Logo className="w-24" />
             </Link>
-            <div>
-              <Image
-                src="/svg/nav.svg"
-                alt="nav bar icon"
-                width={30}
-                height={30}
-                onClick={navBarHandler}
-              />
+            <div className="py-2" onClick={navBarHandler}>
+             <NavBarSvg />
             </div>
           </div>
           <hr className="h-[2px] bg-paragraph" />

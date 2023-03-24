@@ -11,7 +11,7 @@ const Layout = (props:any) => {
           </div>
         </header>
 
-        <main className="lg:mt-[70px] md:mt-36 mt-14 font-mulish">{props.children}</main>
+        <main className="xl:mt-[70px] lg:mt-[50px] mt-14 font-mulish">{props.children}</main>
       </>
     );
 }

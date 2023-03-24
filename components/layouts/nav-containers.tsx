@@ -1,5 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import CallSvg from "../icons/CallSvg";
+import FacebookSvg from "../icons/FacebookSvg";
+import InstagramSvg from "../icons/InstagramSvg";
+import LocationSvg from "../icons/LocationSvg";
+import MailSvg from "../icons/MailSvg";
+import TwitterSvg from "../icons/TwitterSvg";
 
 const Navlink = [
   { name: "Couriers Lists", href: "/courier-list", id: 1 },
@@ -9,9 +15,9 @@ const Navlink = [
 ];
 
 const contact = [
-  { name: "Phone +012 345 6789", src: "/svg/call.svg", id: 1, },
-  { name: "Mail@demo.com", src: "/svg/mail.svg", id: 2, },
-  { name: "Cargo Hub, NY 10012, USA", src: "/svg/location.svg", id: 3, },
+  { name: "+012 345 6789", src: <CallSvg />, id: 1, },
+  { name: "Mail@demo.com", src: <MailSvg />, id: 2, },
+  { name: "Cargo Hub, NY 10012, USA", src: <LocationSvg />, id: 3, },
 ];
 
 const NavContainers = (props:any) => {
@@ -24,7 +30,7 @@ const NavContainers = (props:any) => {
             {Navlink.map(nav => {
               return (
                 <>
-                  <li key={nav.id} className="py-[13px]">
+                  <li key={nav.id} className="py-[15px] font-semibold">
                     <Link onClick={props.onClick} key={nav.id} href={nav.href}>
                       {nav.name}
                     </Link>
@@ -34,8 +40,8 @@ const NavContainers = (props:any) => {
               );
             })}
  
-              <hr className="h-[1px] bg-paragraph" />
-              <li className="my-4 text-white py-3 bg-primary2 w-11/12 xs:w-1/2 mx-auto">
+              <hr className="h-[1px] bg-paragraph font-semibold" />
+              <li className="my-4 text-white py-2 bg-primary2 sm:w-3/12 xs:w-4/12 w-1/2 mx-auto">
                 <Link onClick={props.onClick} href="/auth/sign-up">
                   Sign Up
                 </Link>
@@ -46,41 +52,22 @@ const NavContainers = (props:any) => {
           {/* SOCIAL ICONS AND CONTACT CONTAINER */}
           <div>
             <div className="flex justify-between sm:w-[20%] xs:w-3/12 w-1/2 mx-auto py-2">
-              <Image
-                src="/svg/twitter.svg"
-                alt="twitter icon"
-                width={20}
-                height={20}
-                className=""
-              />
-              <Image
-                src="/svg/facebook.svg"
-                alt="facebook icon"
-                width={20}
-                height={20}
-                className=""
-              />
-              <Image
-                src="/svg/instagram.svg"
-                alt="instagram icon"
-                width={20}
-                height={20}
-                className=""
-              />
+             <TwitterSvg />
+              <FacebookSvg />
+              <InstagramSvg />
             </div>
 
             <div className="bg-secondaryColor w-full">
-              <div className="w-11/12 mx-auto flex flex-wrap py-4 text-sm text-white">
+              <div className="w-11/12 mx-auto flex flex-wrap py-4 text-sm text-white gap-10">
                 {contact.map(con => {
                   return (
-                    <div key={con.id} className="flex mr-5 py-2">
-                      <Image
-                        src={con.src}
-                        alt="icon"
-                        width={20}
-                        height={15}
-                      />
-                      <p className="pl-2">{con.name}</p>
+                    <div key={con.id} className="flex justify-between xl:gap-3 gap-2">
+                      <div className="xl:py-2 py-1">
+                        {con.src}
+                      </div>
+                      <p className="text-sm xl:text-lg text-white font-semibold">
+                        {con.name}
+                      </p>
                     </div>
                   );
                 })}
