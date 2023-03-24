@@ -12,12 +12,12 @@ const MainNavigation = () => {
   return (
     <>
       {/* NAV BAR FOR BIG SCREENS */}
-      <div className="hidden lg:flex justify-between xl:w-[85%] lg:w-[95%] md:w-[95%] mx-auto xl:py-2 py-1">
+      <div className="hidden lg:flex justify-between xl:w-[85%] lg:w-[95%] md:w-[95%] mx-auto py-1">
         <Link className="pt-1" href="/">
           <Logo className="" />
         </Link>
         <nav className="flex justify-between xl:text-xl text-base text-paragraph font-semibold">
-          <ul className="flex justify-between gap-14 mr-6 xl:py-3 py-2">
+          <ul className="flex justify-between gap-14 mr-6 py-2">
             {Navlink.map(nav => {
               return (
                 <li key={nav.id} className="py-1">
@@ -27,7 +27,7 @@ const MainNavigation = () => {
             })}
           </ul>
 
-          <ul className="flex justify-between gap-6 xl:text-xl text-base xl:py-3 py-2 ml-4">
+          <ul className="flex justify-between gap-6 xl:text-xl text-base py-2 ml-4">
             <li className="py-1">
               <Link href="/auth/login">Login</Link>
             </li>

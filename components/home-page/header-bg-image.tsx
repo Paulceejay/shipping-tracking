@@ -3,7 +3,7 @@ const HeaderBgImage = (props:any) => {
       <div className="w-full bg-header-bg-img h-full bg-no-repeat bg-cover bg-center bg-blend-darken filter brightness-[80%]">
         <div className="pt-24 pb-32 bg-gradient-to-r from-gradientTwo">
           <div className="xl:w-[85%]  sm:w-[95%] w-11/12 mx-auto lg:mt-24">
-            <h1 className="lg:w-[30%] md:w-[45%] sm:w-[55%] xs:w-9/12 text-white font-black fo xl:text-6xl sm:text-4xl text-3xl leading-relaxed font-mulish">
+            <h1 className="lg:w-[40%] md:w-[45%] sm:w-[55%] xs:w-9/12 text-white font-black fo xl:text-6xl sm:text-4xl text-3xl leading-relaxed font-mulish">
               We are Global Logistic provider
             </h1>
 

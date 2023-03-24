@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Services = () => {
     return (
-      <div className="xl:w-[85%] lg:w-[95%] lg:max-w-none xs:max-w-screen-xs w-11/12 mx-auto flex lg:flex-row flex-col justify-between bg-services-bg-img">
+      <div className="xl:w-[85%] lg:w-[95%] lg:max-w-none xs:max-w-screen-xs w-11/12 mx-auto flex lg:flex-row flex-col justify-between bg-services-bg-img gap-2">
         <div className="lg:w-[66%] w-full">
           <h2 className="text-primary2 text-base mb-5 font-bold">
             WELCOME TO OUR TRANPORATION SERVICES AGENCY

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
       <footer className="bg-footer-bg-img bg-blend-darken bg-no-repeat bg-cover">
         <div className=" bg-gradient-to-r from-gradientThree">
-          <div className="xl:w-[80%] lg:w-[90%] md:w-[95%] w-11/12 mx-auto md:py-20 py-14 grid md:flex md:justify-between grid-cols-1">
+          <div className="xl:w-[85%] lg:w-[95%] w-11/12 mx-auto md:py-20 py-14 grid md:flex md:justify-between grid-cols-1">
             <div className="md:w-1/2 xl:text-lg lg:text-base text-sm text-white col-span-12 ">
               <h2 className="mb-5 text-lg xl:text-2xl font-semibold text-white">
                 ISLOM LOGISTICS

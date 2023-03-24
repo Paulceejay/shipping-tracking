@@ -16,7 +16,7 @@ const CompanyIcons = () => {
       <>
         {icons.map(icon => {
           return (
-            <div key={icon.src} className="bg-lightBlue lg:m-2 m-2 flex justify-center items-center flex-col  py-4 md:px-14 px-7">
+            <div key={icon.src} className="bg-lightBlue lg:m-2 m-2 flex justify-center items-center flex-col  py-2 md:px-10 px-7">
               <Image
                 src={icon.src}
                 alt=""

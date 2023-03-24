@@ -11,7 +11,7 @@ const Header = (props: any) => {
       <div className="flex justify-between xl:w-[85%] lg:w-[95%] mx-auto py-3">
         <div className="flex justify-between xl:gap-10 gap-6">
           <div className="flex justify-between xl:gap-3 gap-2">
-            <div className="xl:py-2 py-1">
+            <div className="py-1">
               <CallSvg />
             </div>
             <p className="text-sm xl:text-lg text-white font-semibold">
@@ -19,7 +19,7 @@ const Header = (props: any) => {
             </p>
           </div>
           <div className="flex justify-between xl:gap-3 gap-2">
-            <div className="xl:py-2 py-1">
+            <div className="py-1">
               <LocationSvg />
             </div>
             <p className="text-sm xl:text-lg text-white font-semibold">
@@ -27,7 +27,7 @@ const Header = (props: any) => {
             </p>
           </div>
           <div className="flex justify-between xl:gap-3 gap-2">
-            <div className="xl:py-2 py-1">
+            <div className="py-1">
               <MailSvg />
             </div>
             <p className="text-sm xl:text-lg text-white font-semibold">
